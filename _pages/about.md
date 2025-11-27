@@ -24,6 +24,6 @@ latest_posts:
 ---
 Hi! I’m **Manh Nguyen**.
 
-I’m an undergraduate student at UW–Madison majoring in Statistics, Data Science, and Mathematics with the Data Science named option. My academic interests center on representation learning for biomedical data, including molecular graphs, protein–protein interaction (PPI) networks, and gene expression profiles. I care about methods that are both **theoretically grounded** and **directly useful** in drug discovery and repurposing pipelines.
+I’m an undergraduate student at UW–Madison majoring in Statistics, Data Science, and Mathematics with the Data Science named option. My research interests center on representation learning for biomedical data, including molecular graphs, protein–protein interaction (PPI) networks, and gene expression profiles. I care about methods that are both **theoretically grounded** and **directly useful** in drug discovery and repurposing pipelines.
 
 Outside of research, I enjoy playing [TFT](https://teamfighttactics.leagueoflegends.com/en-us/).
