@@ -376,14 +376,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-have-been-accepted-as-an-undergraduate-student-in-uw-madison-looking-forward-to-the-journey-ahead",
+            },},{id: "news-i-have-been-accepted-as-an-undergraduate-student-in-uw-madison-looking-forward-to-the-journey-ahead",
           title: 'I have been accepted as an undergraduate student in UW - Madison. Looking...',
           description: "",
           section: "News",},{id: "news-i-start-my-summer-research-at-vnu-university-of-engineering-and-technology-vietnam-under-the-supervised-of-professor-long-quoc-tran",
           title: 'I start my summer research at VNU University of Engineering and Technology, Vietnam...',
+          description: "",
+          section: "News",},{id: "news-i-start-my-summer-research-at-university-of-wisconsin-madison-under-the-advice-of-professor-yiqiao-zhong",
+          title: 'I start my summer research at University of Wisconsin–Madison under the advice of...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
