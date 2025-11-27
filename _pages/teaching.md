@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /projects/
-title: project
+permalink: /teaching/
+title: teaching
 nav: true
 nav_order: 6
 ---
