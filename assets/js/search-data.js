@@ -431,7 +431,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-sennet-hoa-3d-blood-vessel-segmentation",
           title: 'SenNet + HOA: 3D Blood Vessel Segmentation',
-          description: "U-Net-based segmentation of 40GB+ 3D kidney scans for the SenNet + HOA Kaggle competition.",
+          description: "U-Net-based 3D vessel segmentation for the SenNet + HOA Kaggle competition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-6",
