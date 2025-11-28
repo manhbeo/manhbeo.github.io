@@ -419,9 +419,9 @@ ninja.data = [{
           description: "Implementation and extensions of classifier-free diffusion guidance, exploring attention and U-Net architectures.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-ner-ebay-2023-named-entity-recognition-at-ebay-scale",
+          title: 'NER-Ebay-2023: Named Entity Recognition at eBay Scale',
+          description: "Competing in the 2023 eBay NER challenge on 10M+ product titles using BiLSTM and BiLSTM-CRF models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
