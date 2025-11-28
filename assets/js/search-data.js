@@ -419,6 +419,11 @@ ninja.data = [{
           description: "Implementation and extensions of classifier-free diffusion guidance, exploring attention and U-Net architectures.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-physics-informed-neural-networks-in-pytorch",
+          title: 'Physics-Informed Neural Networks in PyTorch',
+          description: "PyTorch implementations of physics-informed neural networks for classic PDEs such as Burgers, KdV, Navier–Stokes, and Schrödinger equations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-ner-ebay-2023-named-entity-recognition-at-ebay-scale",
           title: 'NER-Ebay-2023: Named Entity Recognition at eBay Scale',
           description: "Competing in the 2023 eBay NER challenge on 10M+ product titles using BiLSTM and BiLSTM-CRF models.",
@@ -429,11 +434,6 @@ ninja.data = [{
           description: "U-Net-based segmentation of 40GB+ 3D kidney scans for the SenNet + HOA Kaggle competition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
