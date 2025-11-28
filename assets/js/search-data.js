@@ -414,9 +414,9 @@ ninja.data = [{
           description: "PyTorch implementation of supervised contrastive learning adapted to hierarchical multi-label data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-cddpm-classifier-free-diffusion-guidance-in-pytorch",
+          title: 'cDDPM: Classifier-Free Diffusion Guidance in PyTorch',
+          description: "Implementation and extensions of classifier-free diffusion guidance, exploring attention and U-Net architectures.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
