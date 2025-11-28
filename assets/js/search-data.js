@@ -421,7 +421,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-physics-informed-neural-networks-in-pytorch",
           title: 'Physics-Informed Neural Networks in PyTorch',
-          description: "PyTorch implementations of physics-informed neural networks for classic PDEs such as Burgers, KdV, Navier–Stokes, and Schrödinger equations.",
+          description: "PINN implementations for Burgers, KdV, Navier–Stokes, Schrödinger and related PDEs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-ner-ebay-2023-large-scale-e-commerce-ner",
