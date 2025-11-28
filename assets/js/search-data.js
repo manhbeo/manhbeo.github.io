@@ -424,9 +424,9 @@ ninja.data = [{
           description: "PyTorch implementations of physics-informed neural networks for classic PDEs such as Burgers, KdV, Navier–Stokes, and Schrödinger equations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-ner-ebay-2023-named-entity-recognition-at-ebay-scale",
-          title: 'NER-Ebay-2023: Named Entity Recognition at eBay Scale',
-          description: "Competing in the 2023 eBay NER challenge on 10M+ product titles using BiLSTM and BiLSTM-CRF models.",
+            },},{id: "projects-ner-ebay-2023-large-scale-e-commerce-ner",
+          title: 'NER-Ebay-2023: Large-Scale E-commerce NER',
+          description: "Named entity recognition on noisy product titles using BiLSTM and BiLSTM-CRF models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-sennet-hoa-3d-blood-vessel-segmentation",
