@@ -1,80 +1,47 @@
 ---
-layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+layout: project
+title: "Physics-Informed Neural Networks in PyTorch"
+description: "PyTorch implementations of physics-informed neural networks for classic PDEs such as Burgers, KdV, Navier–Stokes, and Schrödinger equations."
+date: 2023-03-05
+image: /assets/img/projects/pinns.png
+tags: ["scientific machine learning", "PINNs", "PDEs", "PyTorch"]
+links:
+  github: https://github.com/manhbeo/Physics-Inform-Neural-Network
+  paper1: https://arxiv.org/pdf/1711.10561.pdf
+  paper2: https://arxiv.org/pdf/1711.10566.pdf
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This repository contains **PyTorch implementations** of physics-informed neural networks (PINNs)
+for a range of canonical partial differential equations (PDEs), following the framework introduced
+by Raissi et al. in *Physics-Informed Deep Learning*. :contentReference[oaicite:11]{index=11}
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+PINNs incorporate the governing PDE directly into the loss function, so that the neural network
+approximation respects both **data observations** and **physical laws** (e.g., residuals of the
+differential equation and boundary/initial conditions).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## What the code covers
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The repository includes experiments for multiple PDEs: :contentReference[oaicite:12]{index=12}
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Burgers’ equation** (continuous and discrete identification).
+- **KdV equation** (nonlinear wave propagation).
+- **Navier–Stokes** equations (fluid dynamics).
+- **Schrödinger** equation (quantum dynamics).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+For each problem, I implement:
 
-{% raw %}
+- A neural network that maps space–time coordinates to the solution field.
+- A **physics-informed loss** combining:
+  - Data mismatch (observed points).
+  - PDE residuals computed via automatic differentiation.
+- Training scripts / notebooks for solving both **forward** and **inverse** problems (e.g.,
+  recovering unknown parameters from observed dynamics).
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Highlights
 
-{% endraw %}
+- Hands-on implementation of **PINNs** for several benchmark PDEs.
+- Shows how to integrate **automatic differentiation** with PDE residuals in PyTorch.
+- A useful starting point for more advanced **scientific machine learning** and
+  **physics-constrained neural operators**.
