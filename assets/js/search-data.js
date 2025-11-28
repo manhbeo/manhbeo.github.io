@@ -409,9 +409,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-a-part-time-research-position-at-the-university-of-wisconsin-madison-working-under-the-supervision-of-professor-vikas-singh",
           title: 'I started a part-time research position at the University of Wisconsin–Madison, working under...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-treeclr-hierarchical-supervised-contrastive-learning",
+          title: 'TreeCLR: Hierarchical Supervised Contrastive Learning',
+          description: "PyTorch implementation of supervised contrastive learning adapted to hierarchical multi-label data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
