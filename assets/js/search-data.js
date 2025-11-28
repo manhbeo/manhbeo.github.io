@@ -416,7 +416,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-cddpm-classifier-free-diffusion-guidance-in-pytorch",
           title: 'cDDPM: Classifier-Free Diffusion Guidance in PyTorch',
-          description: "Implementation and extensions of classifier-free diffusion guidance, exploring attention and U-Net architectures.",
+          description: "Implementing classifier-free diffusion guidance and exploring U-Net + attention designs for diffusion models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-physics-informed-neural-networks-in-pytorch",
