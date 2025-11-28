@@ -424,9 +424,9 @@ ninja.data = [{
           description: "Competing in the 2023 eBay NER challenge on 10M+ product titles using BiLSTM and BiLSTM-CRF models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-sennet-hoa-3d-blood-vessel-segmentation",
+          title: 'SenNet + HOA: 3D Blood Vessel Segmentation',
+          description: "U-Net-based segmentation of 40GB+ 3D kidney scans for the SenNet + HOA Kaggle competition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
