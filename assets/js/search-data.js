@@ -409,9 +409,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-a-summer-research-position-at-the-university-of-wisconsin-madison-working-under-the-supervision-of-professor-vikas-singh",
           title: 'I started a summer research position at the University of Wisconsin–Madison, working under...',
           description: "",
-          section: "News",},{id: "projects-treeclr-hierarchical-supervised-contrastive-learning",
-          title: 'TreeCLR: Hierarchical Supervised Contrastive Learning',
-          description: "PyTorch implementation of supervised contrastive learning adapted to hierarchical multi-label data.",
+          section: "News",},{id: "projects-treeclr-hierarchical-multi-label-contrastive-learning",
+          title: 'TreeCLR: Hierarchical Multi-Label Contrastive Learning',
+          description: "PyTorch reimplementation of a hierarchical multi-label contrastive learning framework on ImageNet-style label trees.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-cddpm-classifier-free-diffusion-guidance-in-pytorch",
