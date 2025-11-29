@@ -424,8 +424,8 @@ ninja.data = [{
           description: "PINN implementations for Burgers, KdV, Navier–Stokes, Schrödinger and related PDEs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-ner-ebay-2023-large-scale-e-commerce-ner",
-          title: 'NER-Ebay-2023: Large-Scale E-commerce NER',
+            },},{id: "projects-ner-ebay-2023",
+          title: 'NER-Ebay-2023',
           description: "Named entity recognition on noisy product titles using BiLSTM and BiLSTM-CRF models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
