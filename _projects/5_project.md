@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Physics-Informed Neural Networks in PyTorch"
+title: "PINNs in PyTorch"
 description: "PINN implementations for Burgers, KdV, Navier–Stokes, Schrödinger and related PDEs."
 date: 2023-03-05
 image: /assets/img/projects/pinns.png
