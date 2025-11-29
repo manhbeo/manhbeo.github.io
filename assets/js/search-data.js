@@ -419,8 +419,8 @@ ninja.data = [{
           description: "Implementing classifier-free diffusion guidance and exploring U-Net + attention designs for diffusion models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-physics-informed-neural-networks-in-pytorch",
-          title: 'Physics-Informed Neural Networks in PyTorch',
+            },},{id: "projects-pinns-in-pytorch",
+          title: 'PINNs in PyTorch',
           description: "PINN implementations for Burgers, KdV, Navier–Stokes, Schrödinger and related PDEs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
