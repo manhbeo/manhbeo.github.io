@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SenNet + HOA: 3D Blood Vessel Segmentation"
+title: "SenNet + HOA"
 description: "U-Net-based 3D vessel segmentation for the SenNet + HOA Kaggle competition."
 date: 2023-06-20
 image: /assets/img/projects/sennet.png
