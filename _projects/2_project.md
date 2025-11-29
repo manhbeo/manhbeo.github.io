@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "cDDPM: Classifier-Free Diffusion Guidance in PyTorch"
+title: "cDDPM in PyTorch"
 description: "Implementing classifier-free diffusion guidance and exploring U-Net + attention designs for diffusion models."
 date: 2023-02-01
 image: /assets/img/projects/cddpm.png
