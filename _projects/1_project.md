@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "TreeCLR: Hierarchical Multi-Label Contrastive Learning"
+title: "TreeCLR"
 description: "PyTorch reimplementation of a hierarchical multi-label contrastive learning framework on ImageNet-style label trees."
 date: 2023-01-15
 image: /assets/img/projects/treeclr.png
