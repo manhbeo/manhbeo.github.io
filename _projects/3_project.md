@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "NER-Ebay-2023: Large-Scale E-commerce NER"
 description: "Named entity recognition on noisy product titles using BiLSTM and BiLSTM-CRF models."
 date: 2023-05-10
