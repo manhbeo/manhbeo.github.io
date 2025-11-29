@@ -429,8 +429,8 @@ ninja.data = [{
           description: "Named entity recognition on noisy product titles using BiLSTM and BiLSTM-CRF models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-sennet-hoa-3d-blood-vessel-segmentation",
-          title: 'SenNet + HOA: 3D Blood Vessel Segmentation',
+            },},{id: "projects-sennet-hoa",
+          title: 'SenNet + HOA',
           description: "U-Net-based 3D vessel segmentation for the SenNet + HOA Kaggle competition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
