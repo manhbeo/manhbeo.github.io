@@ -24,7 +24,6 @@ latest_posts:
 ---
 Hi! I’m **Manh Nguyen**.
 
-I’m an undergraduate student at UW–Madison majoring in Statistics, Data Science, and Mathematics with the Statistical Analysis and Risk Assessment named option. My research interests center on representation learning for drug discovery, namely contrastive learning for protein-ligand binding problem. I care about methods that are both **theoretically grounded** and **empirically useful** in drug discovery and repurposing pipelines, and my final goal is to create models that need little to no biological knowledge.
+I’m an undergraduate student at UW–Madison majoring in Statistics, Data Science, and Mathematics with the Statistical Analysis and Risk Assessment named option. My research interests center on representation learning for drug discovery and bioinformatics, namely contrastive learning for protein-ligand binding problem. I care about methods that are both **theoretically grounded** and **empirically useful** in drug discovery and repurposing pipelines.
 
 Outside of research, I enjoy playing [TFT](https://tactics.tools/player/na/wwhatf389/NA1) and listening to audiobook.
- 
